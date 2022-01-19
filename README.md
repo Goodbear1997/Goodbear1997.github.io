@@ -1,2 +1,2 @@
-# Goodbear1997.github.io
+# goodbear1997.github.io
 My Website
