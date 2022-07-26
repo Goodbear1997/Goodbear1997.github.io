@@ -1,0 +1,82 @@
+// main: style.less
+
+.shop {
+  margin: 175px 0;
+
+  @media @mobile {
+    margin: 25px 0;
+  }
+}
+
+.shop__content {
+  display: flex;
+
+  @media @mobile {
+    text-align: center;
+    display: block;
+  }
+}
+
+.shop__content-item {
+  text-align: center;
+  margin-right: 80px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  @media @mobile {
+    margin-right: 0;
+  }
+}
+
+.shop__content-item--title {
+  padding-top: 20px;
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 3.9rem;
+  text-align: center;
+  letter-spacing: 0.22px;
+  color: @black;
+}
+
+.shop__content-item--text {
+  margin: 20px 0 50px 0;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 3.3rem;
+  text-align: center;
+  letter-spacing: 0.22px;
+  color: @gray;
+}
+
+.shop__content-item--btn {
+  position: relative;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: @gray;
+  text-decoration: none;
+  outline: none;
+  z-index: 1;
+
+  & img {
+    margin-left: 2px;
+    position: absolute;
+    height: 20px;
+    top: 5px;
+  }
+
+  &:hover {
+    color: @brown;
+    transition-delay: .2s;
+  }
+}

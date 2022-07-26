@@ -1,0 +1,56 @@
+// main: style.less
+
+.main {
+  background: url(../img/main.jpg);
+  border-radius: 0px 0px 0px 290px;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  max-height: 831px;
+  margin-top: 106px;
+
+  @media @tablet {
+    border-radius: 0;
+    height: 660px;
+  }
+}
+
+.main__content {
+  width: 60rem;
+  padding-top: 188px;
+  padding-bottom: 60px;
+
+  @media @mobile {
+    width: 100%;
+    padding-top: 60px;
+  }
+}
+
+.main__content-title {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8rem;
+  line-height: 9.6rem;
+  letter-spacing: 0.22px;
+  color: @black;
+
+  @media @mobile {
+    font-size: 6rem;
+  }
+}
+
+.main__content-text {
+  padding: 2rem 0 3.5rem;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 3.3rem;
+  letter-spacing: 0.22px;
+  color: @gray;
+
+  @media @mobile {
+    font-size: 1.8rem;
+  }
+}
