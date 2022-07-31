@@ -1,0 +1,28 @@
+// main: style.less
+
+.brand__content {
+  margin: 12vh 0;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 3vw;
+  align-items: center;
+
+  &:first-child {
+
+  }
+
+  @media @tablet {
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  @media @mobile {
+    text-align: center;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+}
+
+.brand__content-item {
+
+}
